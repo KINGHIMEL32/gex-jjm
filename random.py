@@ -388,8 +388,8 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
  
-  logo="""\033[1;91m              ─━㋱ASSALAMUALAIKUM㋱━─ 
-  \033[1;90m                         
+  logo="""            
+  \033[1;90m─━㋱ASSALAMUALAIKUM㋱━─                          
   \033[1;91m
   \033[1;91m   ##     ##  ##  ##         ## ###### ##      
   \033[1;92m   ##     ##  ##  ####     #### ##     ##       
@@ -400,7 +400,7 @@ def follow(ses,coki):
   \033[1;92m   ##     ##  ##  ##         ## ###### #########
   \033[1;99m
    \033[1;91m         Hard Woark kye to sucees(KING-HIMEL32)
-  \033[1;92;1m                      
+  \033[1;92m                      
                                      ## HIMEL-HACKER##
   
   [∆]\033[1;96;1m Author   :KING-HIMEL32
